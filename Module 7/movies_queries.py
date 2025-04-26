@@ -6,9 +6,9 @@ import mysql.connector
 # Connect to MySQL database
 db = mysql.connector.connect(
     host="127.0.0.1",
-    user="movies_user",      # <-- Replace with your MySQL username
-    password="popcorn",  # <-- Replace with your MySQL password
-    database="movies"          # <-- Your database is called "movies"
+    user="movies_user",      
+    password="popcorn",  
+    database="movies"          
 )
 
 # Create a cursor object
